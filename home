@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roger Barber - Product Designer</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body { font-family: 'Work Sans', sans-serif; }
+</style>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#E0781D',
+secondary: '#733030',
+tertiary: '#60B0C1',
+'gray': {
+900: '#2B251F',
+800: '#3D3631',
+700: '#4E4540',
+600: '#6B615A',
+500: '#8C7E76',
+400: '#A69C95',
+300: '#C4BBB5',
+200: '#E2DBD6',
+100: '#F5F2F0',
+50: '#FAF8F7'
+}
+},
+borderRadius: {
+'none': '0px',
+'sm': '4px',
+DEFAULT: '8px',
+'md': '12px',
+'lg': '16px',
+'xl': '20px',
+'2xl': '24px',
+'3xl': '32px',
+'full': '9999px',
+'button': '8px'
+}
+}
+}
+}
+</script>
+</head>
+<body class="bg-white min-h-screen">
+<nav class="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex items-center justify-between h-20">
+<a href="/" class="flex items-center space-x-2">
+<div class="w-10 h-10 flex items-center justify-center">
+<img src="https://static.readdy.ai/image/c9649a1d64ed5314265e43e707ed29a6/eeafccdb658e411a0f3359e8eb7546b7.png" alt="Logo" class="w-full h-full">
+</div>
+</a>
+<div class="flex items-center space-x-8">
+<a href="#work" class="text-primary font-medium relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-primary">Work</a>
+<a href="#about" class="text-gray-600 hover:text-primary transition-colors relative hover:after:content-[''] hover:after:absolute hover:after:bottom-0 hover:after:left-0 hover:after:w-full hover:after:h-0.5 hover:after:bg-primary">About</a>
+<a href="#beyond" class="text-gray-600 hover:text-primary transition-colors relative hover:after:content-[''] hover:after:absolute hover:after:bottom-0 hover:after:left-0 hover:after:w-full hover:after:h-0.5 hover:after:bg-primary">Beyond</a>
+<a href="#contact" class="px-6 py-2 bg-primary text-white !rounded-button hover:bg-primary/90 active:bg-primary/80 active:scale-[0.98] transition-all whitespace-nowrap relative after:content-[''] after:absolute after:inset-0 after:border after:border-white/20 after:opacity-0 hover:after:opacity-100 active:after:opacity-0 after:rounded-button after:transition-opacity">Contact</a>
+</div>
+</div>
+</div>
+</nav>
+<header class="pt-32 pb-20 px-6 relative overflow-hidden">
+<div class="max-w-7xl mx-auto relative z-10">
+<h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 max-w-4xl leading-tight whitespace-normal">
+Roger Barber is a product designer and&nbsp;complex problem&nbsp;solver.
+</h1>
+<p class="mt-8 text-xl text-gray-500 max-w-2xl">
+I bridge research, design, and strategy to craft products that empower people — product owners, makers, and&nbsp;users.
+</p>
+</div>
+<div class="absolute top-0 right-0 w-1/2 h-full opacity-10">
+<img src="https://public.readdy.ai/ai/img_res/d08bce05a945c73473d08ccde0a8a0f6.jpg" class="w-full h-full object-cover" alt="Background pattern">
+</div>
+</header>
+<main class="px-6 pb-20">
+<section class="max-w-7xl mx-auto">
+<h2 class="text-2xl font-semibold text-gray-900 mb-12">Featured Projects</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="group">
+<div class="aspect-[4/3] rounded-lg overflow-hidden bg-gray-100">
+<img src="https://public.readdy.ai/ai/img_res/7ae94c2f4c8b3ffec433d4d20cc6b175.jpg" class="w-full h-full object-cover transition-transform group-hover:scale-105" alt="Finance App Dashboard">
+</div>
+<h3 class="mt-4 text-xl font-medium text-gray-900">FinTech Dashboard</h3>
+<p class="mt-2 text-gray-500">Reimagining personal finance management with intuitive data visualization.</p>
+</div>
+<div class="group">
+<div class="aspect-[4/3] rounded-lg overflow-hidden bg-gray-100">
+<img src="https://public.readdy.ai/ai/img_res/201865b86db837487cef37a675af97e0.jpg" class="w-full h-full object-cover transition-transform group-hover:scale-105" alt="E-commerce Platform">
+</div>
+<h3 class="mt-4 text-xl font-medium text-gray-900">E-commerce Platform</h3>
+<p class="mt-2 text-gray-500">Streamlined shopping experience focusing on conversion and user satisfaction.</p>
+</div>
+<div class="group">
+<div class="aspect-[4/3] rounded-lg overflow-hidden bg-gray-100">
+<img src="https://public.readdy.ai/ai/img_res/037620933d666bb9fbda9a8b0a9bdffd.jpg" class="w-full h-full object-cover transition-transform group-hover:scale-105" alt="Health App">
+</div>
+<h3 class="mt-4 text-xl font-medium text-gray-900">Health & Wellness App</h3>
+<p class="mt-2 text-gray-500">Holistic approach to personal health tracking and mindfulness.</p>
+</div>
+<div class="group">
+<div class="aspect-[4/3] rounded-lg overflow-hidden bg-gray-100">
+<img src="https://public.readdy.ai/ai/img_res/bae84502515b5264cb8bb205df8e3f4d.jpg" class="w-full h-full object-cover transition-transform group-hover:scale-105" alt="Productivity Tool">
+</div>
+<h3 class="mt-4 text-xl font-medium text-gray-900">Productivity Suite</h3>
+<p class="mt-2 text-gray-500">Enhanced team collaboration through intelligent workflow design.</p>
+</div>
+</div>
+</section>
+<section class="max-w-7xl mx-auto mt-20">
+<h2 class="text-2xl font-semibold text-gray-900 mb-12">Other Projects</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="group">
+<div class="aspect-[3/2] rounded-lg overflow-hidden bg-gray-100">
+<img src="https://public.readdy.ai/ai/img_res/bc91a8eb8f788649e545ccc6f475ba18.jpg" class="w-full h-full object-cover transition-transform group-hover:scale-105" alt="Travel App">
+</div>
+<h3 class="mt-3 text-lg font-medium text-gray-900">Travel Companion</h3>
+<p class="mt-1 text-sm text-gray-500">Smart travel planning and booking system.</p>
+</div>
+<div class="group">
+<div class="aspect-[3/2] rounded-lg overflow-hidden bg-gray-100">
+<img src="https://public.readdy.ai/ai/img_res/0637be5b83e247918a074f432c6fd0a3.jpg" class="w-full h-full object-cover transition-transform group-hover:scale-105" alt="Music App">
+</div>
+<h3 class="mt-3 text-lg font-medium text-gray-900">Music Platform</h3>
+<p class="mt-1 text-sm text-gray-500">Reimagined music discovery experience.</p>
+</div>
+<div class="group">
+<div class="aspect-[3/2] rounded-lg overflow-hidden bg-gray-100">
+<img src="https://public.readdy.ai/ai/img_res/a364280403f48c7c36b66634b647c3c3.jpg" class="w-full h-full object-cover transition-transform group-hover:scale-105" alt="Education Platform">
+</div>
+<h3 class="mt-3 text-lg font-medium text-gray-900">Learning Platform</h3>
+<p class="mt-1 text-sm text-gray-500">Interactive educational experience design.</p>
+</div>
+<div class="group">
+<div class="aspect-[3/2] rounded-lg overflow-hidden bg-gray-100">
+<img src="https://public.readdy.ai/ai/img_res/25aaf7b90cae2eb640cac64911efe2d8.jpg" class="w-full h-full object-cover transition-transform group-hover:scale-105" alt="Smart Home">
+</div>
+<h3 class="mt-3 text-lg font-medium text-gray-900">Smart Home Control</h3>
+<p class="mt-1 text-sm text-gray-500">Simplified home automation interface.</p>
+</div>
+<div class="group">
+<div class="aspect-[3/2] rounded-lg overflow-hidden bg-gray-100">
+<img src="https://public.readdy.ai/ai/img_res/7f054c88fe45ffbdcbc235764e150956.jpg" class="w-full h-full object-cover transition-transform group-hover:scale-105" alt="Food Delivery">
+</div>
+<h3 class="mt-3 text-lg font-medium text-gray-900">Food Delivery Service</h3>
+<p class="mt-1 text-sm text-gray-500">Seamless food ordering experience.</p>
+</div>
+<div class="group">
+<div class="aspect-[3/2] rounded-lg overflow-hidden bg-gray-100">
+<img src="https://public.readdy.ai/ai/img_res/e0e18b96568ffee174bc38ff05ba2cad.jpg" class="w-full h-full object-cover transition-transform group-hover:scale-105" alt="Social Network">
+</div>
+<h3 class="mt-3 text-lg font-medium text-gray-900">Social Platform</h3>
+<p class="mt-1 text-sm text-gray-500">Next-gen social networking interface.</p>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-gray-50 border-t border-gray-100">
+<div class="max-w-7xl mx-auto px-6 py-16">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div>
+<h3 class="text-lg font-semibold text-gray-900 mb-4">Contact</h3>
+<a href="mailto:hello@rogerbarber.com" class="text-gray-600 hover:text-primary block mb-2">hello@rogerbarber.com</a>
+<a href="tel:+1234567890" class="text-gray-600 hover:text-primary">+1 (234) 567-890</a>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-gray-900 mb-4">Social</h3>
+<div class="flex space-x-4">
+<a href="#" class="w-10 h-10 flex items-center justify-center text-gray-600 hover:text-primary hover:bg-gray-100 rounded-full transition-all" aria-label="Twitter">
+<i class="ri-twitter-line text-xl"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center text-gray-600 hover:text-primary hover:bg-gray-100 rounded-full transition-all" aria-label="LinkedIn">
+<i class="ri-linkedin-line text-xl"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center text-gray-600 hover:text-primary hover:bg-gray-100 rounded-full transition-all" aria-label="Dribbble">
+<i class="ri-dribbble-line text-xl"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center text-gray-600 hover:text-primary hover:bg-gray-100 rounded-full transition-all" aria-label="Instagram">
+<i class="ri-instagram-line text-xl"></i>
+</a>
+</div>
+</div>
+<div>
+<h3 class="text-lg font-semibold text-gray-900 mb-4">Location</h3>
+<p class="text-gray-500">San Francisco, CA</p>
+<p class="text-gray-500 mt-2">Available for remote work worldwide</p>
+</div>
+</div>
+<div class="mt-12 pt-8 border-t border-gray-200">
+<p class="text-gray-500 text-sm">&copy; 2025 Roger Barber. All rights reserved.</p>
+</div>
+</div>
+</footer>
+</body>
+</html>
